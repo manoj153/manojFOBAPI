@@ -4,12 +4,13 @@ class SensorsController < ApplicationController
   # GET /sensors
   # GET /sensors.json
   def index
-    @sensors = Sensor.all
+    @sensor = Sensor.last
   end
 
   # GET /sensors/1
   # GET /sensors/1.json
   def show
+	#@sensor = Sensor.last
   end
 
   # GET /sensors/new

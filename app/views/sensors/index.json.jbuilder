@@ -1,1 +1,3 @@
-json.array! @sensors, partial: 'sensors/sensor', as: :sensor
+
+
+json.partial! "sensors/sensor", sensor: @sensor
